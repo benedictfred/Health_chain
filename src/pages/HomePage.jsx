@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 const HomePage = () => {
   return (
     <div
-      className="homepage"
+      className="homepage mx-4 shadow-2xl"
       style={{ backgroundColor: "#ffffff", height: "auto" }}
     >
       <Hero />

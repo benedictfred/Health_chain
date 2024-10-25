@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Speciality = () => {
   return (
     <div
-      className="flex flex-col items-center gap-4 py-16 text-gray-800"
+      className="flex flex-col items-center mx-6 md:mx-8 gap-4 py-16 text-gray-800"
       id="speciality"
     >
       <h1 className="text-3xl font-medium">Find by Speciality </h1>

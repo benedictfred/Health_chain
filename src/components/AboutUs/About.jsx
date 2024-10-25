@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Footer from '../Footer/Footer'
 export default function About() {
   return (
-    <div className='mx-4 shadow-2xl px-6 pt-10 '>
+    <div className='mx-4 shadow-2xl'>
+    <div className=' px-6 h-full pt-10 '>
       <h1 className='font-bold text-gray-600 text-center text-3xl pb-6'>ABOUT <span className='text-gray-950'>US</span></h1>
 
       <div className='flex md:flex-row gap-6 md:items-start items-center mx-auto flex-col md:gap-14 justify-center '>
@@ -36,9 +37,9 @@ export default function About() {
 
 </div>
 
-
 </div>
-
+</div>
+<Footer />
 </div>
 
       
