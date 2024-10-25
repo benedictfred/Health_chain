@@ -1,27 +1,5 @@
 const Appoinments = () => {
-  return(  
-  <div>
-
-
-hello
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-
-
-  )
+  return <div>hello</div>;
 };
 
 export default Appoinments;
