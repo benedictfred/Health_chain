@@ -36,7 +36,7 @@ function AllDoctors() {
     <div>
       <div className="px-6 md:px-8 pt-8">
         <div className="flex md:flex-row gap-6 flex-col justify-center">
-          <nav className="pb-4 pt-10 px-6 bg-white md:px-8    start-0 ">
+          <nav className="pb-4 pt-10 px-6 bg-white start-0">
             <h4 className="pb-3 text-lg">
               Browse through the doctors specialist.
             </h4>
