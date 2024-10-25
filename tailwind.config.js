@@ -6,7 +6,15 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}', // For React or other JS frameworks
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary": "#5f6fff"
+      }, 
+      gridTemplateColumns:{
+        'auto': 'repeat(auto-fill, minmax(200px, 1fr))'
+      }
+    },
+  
   },
   plugins:[ 
   require('flowbite/plugin')
